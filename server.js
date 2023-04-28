@@ -26,7 +26,7 @@ const storeRedisKey = "store:students"; // cahce key for users
 const dataExpireTime = 3600; // 1 hour cache expire time
 
 // main endpoint
-app.get("/", (req, res) => res.send("✅ - SETU API working."));
+app.get("/", (req, res) => res.send("✅ - UOF API working."));
 
 // students endpoint with caching
 app.get("/students", (req, res) => {
